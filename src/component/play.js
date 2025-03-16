@@ -77,10 +77,12 @@ const Play = () => {
             setInputValue4(newValue);
         }else if(num === 5){
             setInputValue5(newValue);
-        }else if(num === 6){
+        }
+    }
+    if(num === 6){
+        if (newValue === '' || (newValue >= 1 && newValue <= 26)) {
             setInputValue6(newValue);
         }
-        
     }
   }
 
