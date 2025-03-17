@@ -233,7 +233,7 @@ const Play = () => {
                             </div>}
 
                     <div className='play_label'>
-                        <li>ESTIMATED JACKPOT</li>
+                        <li>Current Prize Pool</li>
                     </div>
 
                     <div className='play_eth'>
