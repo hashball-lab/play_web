@@ -68,6 +68,25 @@ const playballAbi = [
         "internalType": "address",
         "name": "_addr",
         "type": "address"
+      }
+    ],
+    "name": "check_dealer",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_addr",
+        "type": "address"
       },
       {
         "internalType": "uint256",
