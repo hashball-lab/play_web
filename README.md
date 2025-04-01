@@ -7,8 +7,10 @@ You can run local to see the page and function, steps are as follows.
 
 2. cd play_web
 
-3. npm install
+3. replace the dealer_address with your partner address in App.js
 
-4. npm start
+4. npm install
+
+5. npm start
 
 Then you can see web page in your local brower at http://localhost:3000/
